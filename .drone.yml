@@ -45,6 +45,11 @@ steps:
       source: ./public/**/*
       target: /paperplane-blog
       strip_prefix: public
+      content_type:
+        ".*ttf$": "font/ttf"
+        ".*woff$": "font/woff"
+        ".*woff2$": "font/woff2"
+        ".*eot$": "application/vnd.ms-fontobject"
 
   - name: deploy
     image: alpine:3.20
