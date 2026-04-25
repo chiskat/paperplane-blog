@@ -13,7 +13,7 @@ language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
-url: https://paperplane.cc
+url: https://blog.paperplane.cc
 permalink: p/:hash/
 permalink_defaults:
 pretty_urls:
@@ -106,17 +106,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 # deploy:
-
-cdn:
-  enable: true
-  base: https://cdn.paperplane.cc/paperplane-blog/
-  tags:
-    'img[src]':
-      attribute: src
-      callback: >
-        function(imgSrc) {
-          return imgSrc.replace('//cdn.paperplane.cc/images', '//cdn.paperplane.cc/paperplane-blog/images')
-        }
 
 # disqus_shortname: paperplane-cc
 

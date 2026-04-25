@@ -1,9 +1,6 @@
 {
-  "name": "paperplane-blog",
-  "packageManager": "pnpm@10.4.0",
   "private": true,
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "dev": "hexo clean && hexo server",
     "build": "hexo generate",
     "clean": "hexo clean",
@@ -16,7 +13,6 @@
   "dependencies": {
     "axios": "^1.7.9",
     "hexo": "^6.3.0",
-    "hexo-cdnify": "^1.1.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^3.0.0",
@@ -27,11 +23,5 @@
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^0.0.3"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "hexo-util",
-      "highlight.js"
-    ]
   }
 }
