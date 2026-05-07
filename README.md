@@ -1,10 +1,8 @@
-# PaperPlane Blog
+# PaperPlane Blog (Old)
 
-“不忘初心，方得始终。”<br />
-这是我的个人技术博客 “[纸飞机的信笺](https://paperplane.cc)” 网站的源代码仓库。
+此仓库已于 2026.5 合并迁移至 [`chiskat/paperplane.cc`](https://github.com/chiskat/paperplane.cc)
 
-GitHub 代码仓库为镜像。<br />
-原始代码仓库：https://git.paperplane.cc/chiskat/paperplane-blog
+后续此仓库不再更新，仅留作存档。
 
 # 简介
 
